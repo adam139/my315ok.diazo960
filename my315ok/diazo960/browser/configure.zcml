@@ -84,7 +84,7 @@
       layer=".interfaces.IThemeSpecific"
     	permission="zope2.View" 
 	/> 
-
+<!--
      <browser:viewlet
     	name="mynew.abovecontentview"
     	manager="plone.app.layout.viewlets.interfaces.IContentViews"
@@ -92,7 +92,7 @@
       layer=".interfaces.IThemeSpecific"
     	permission="zope2.View" 
 	/> 
-  
+--> 
      <browser:viewlet
     	name="mynew.abovecontent"
     	manager="plone.app.layout.viewlets.interfaces.IAboveContent"

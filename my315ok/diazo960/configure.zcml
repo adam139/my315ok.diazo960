@@ -18,6 +18,13 @@
       description='Extension profile for the "diazo960 theme".'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="uninstall my315ok.diazo960"
+      directory="profiles/uninstall"
+      description='uninstall Extension profile for the "diazo960 theme".'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />      
   <include package=".upgrades" />
 
   <plone:static directory="static" type="theme" 
